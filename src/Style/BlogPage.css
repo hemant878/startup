@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@700&family=Viga&display=swap');
+
+.blogpage{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.gtt{
+    width: 100%;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 360px;
+}
+
+.uniquepro{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    border-radius: 47px;
+    margin-top: 15px;
+}
+
+.uniquepros{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 47px; */
+    margin-top: 15px;
+}
+
+.phs{
+    display: flex;
+}
+
+.bloghead{
+    color: white;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+}
+
+.blogpara{
+    color: rgba(255,255,255,.6);
+    font-size: 18px;
+    margin-top: 30px;
+    /* font-family: josefin sans,sans-serif; */
+   margin-bottom: 10px;
+
+}
+
+.subblog{
+    width: 75%;
+    margin: auto;
+}
+.sws{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .blogpage{
+        width: 92%;
+    }
+    .subblog{
+        width: 89%;
+    }
+
+
+}

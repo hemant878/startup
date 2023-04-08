@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@700&family=Viga&display=swap');
+
+body{
+    background-color: #16151f;
+}
+
+.unique{
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 650px;
+  border-radius: 47px;
+  margin-top: 15px;
+  filter: brightness(0.30);
+
+    
+}
+
+.rr{
+    width: 80%;
+    margin: auto;
+}
+.linkhtt{
+    text-decoration: none;
+}
+
+.htt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+   
+}
+.htt:hover{
+    font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+.rr{
+    width: 100%;
+   
+}
+
+.unique{
+    height: auto;
+    border-radius: 0px;
+}
+
+
+}    
