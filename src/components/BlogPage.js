@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 import { LinkedInEmbed } from 'react-social-media-embed';
 import { YouTubeEmbed } from 'react-social-media-embed';
 import YouTube from 'react-youtube';
-import ReactHtmlParser from 'react-html-parser'
+// import ReactHtmlParser from 'react-html-parser'
 
 
 
@@ -60,7 +60,7 @@ function BlogPage(props) {
                         <p> hello</p>
                     </div>
 
-                    <p className='blogpara'>{ReactHtmlParser(four.ftitle2)}</p>
+                    <p className='blogpara'>{four.ftitle2}</p>
 
 
                     <img className='uniquepros' src={four.fcover2} alt="" />
@@ -69,7 +69,7 @@ function BlogPage(props) {
 
 
 
-                    <p className='blogpara'>{ReactHtmlParser(four.ftitle3)}</p>
+                    <p className='blogpara'>{four.ftitle3}</p>
 
 
                         {/* <YouTubeEmbed className="gtt" url="https://www.youtube.com/watch?v=HpVOs5imUN0"  /> */}
@@ -79,7 +79,7 @@ function BlogPage(props) {
 
 
 
-                    <p className='blogpara'>{ReactHtmlParser(four.ftitle4)}</p>
+                    <p className='blogpara'>{four.ftitle4}</p>
 
 
 
