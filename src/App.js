@@ -5,7 +5,9 @@ import Page from './components/Page';
 import BlogPage from './components/BlogPage';
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { BoltLoader } from "react-awesome-loaders";
+// import { BoltLoader } from "react-awesome-loaders";
+
+import { Dna } from  'react-loader-spinner'
 import ScrollToTop from './components/ScrollToTop';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -31,12 +33,14 @@ function App() {
      {
         loading ? 
         <div className="load">
-        <BoltLoader
-          className={"loaderbolt"}
-          boltColor={"white"}
-          backgroundBlurColor={"white"}
-          loading={loading}
-        />
+       <Dna
+  visible={true}
+  height="120"
+  width="120"
+  ariaLabel="dna-loading"
+  wrapperStyle={{}}
+  wrapperClass="dna-wrapper"
+/>
         </div>
 
        :
