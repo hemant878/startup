@@ -9,7 +9,7 @@ function Footer() {
         <div>
           <div className='footer'>
             <div>
-            <h1 className='text-light sp'>By <br/>Hemant Tighade</h1>
+            <h1 className='text-light sp'>By <br/> <br/> Hemant Tighade</h1>
             </div>
 
             <div className='tr'>

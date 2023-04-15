@@ -51,7 +51,7 @@ function BlogPage(props) {
                 <img className='uniquepro' src={four.fcover} alt="" />
 
 
-                <div className='subblog'>
+                <div className='subblog' >
 
                     <h1 className='bloghead'>{four.ftitle}</h1>
 
@@ -60,16 +60,16 @@ function BlogPage(props) {
                         <p> hello</p>
                     </div>
 
-                    <p className='blogpara'>{four.ftitle2}</p>
+                    <div className='blogpara'  dangerouslySetInnerHTML={{__html: four.ftitle2}}></div>
 
 
                     <img className='uniquepros' src={four.fcover2} alt="" />
 
+                 <div className='blogpara' dangerouslySetInnerHTML={{__html: four.ftitle3}}></div>
 
 
 
-
-                    <p className='blogpara'>{four.ftitle3}</p>
+                    {/* <p >{four.ftitle3}</p> */}
 
 
                         {/* <YouTubeEmbed className="gtt" url="https://www.youtube.com/watch?v=HpVOs5imUN0"  /> */}
@@ -79,7 +79,7 @@ function BlogPage(props) {
 
 
 
-                    <p className='blogpara'>{four.ftitle4}</p>
+                    <div className='blogpara'  dangerouslySetInnerHTML={{__html: four.ftitle3}}></div>
 
 
 
