@@ -41,7 +41,7 @@ function Carousel() {
 
           <div class="carousel-item active" key={four.id}>
             <img className='unique' src={four.fcover} alt="" />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
             <Link to={`/four/${four.id}`} className='linkhtt'>  <h5 className='htt'>{four.ftitle}</h5></Link>
              
             </div>

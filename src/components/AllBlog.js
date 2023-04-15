@@ -46,16 +46,16 @@ function Home() {
                     {/* <Link to={`/exam/${exam.id}`}><h2 className="h9">{exam.ttitle}</h2>  */}
                       <Link to={`/four/${four.id}`} className='llkk'>  <p  className='logo'>Logo</p>
                         <h2 >{four.ftitle}</h2></Link>
-                        <p>{four.fsubtitle}</p>
+                        <div style={{fontSize:'18px',height:'54px'}} dangerouslySetInnerHTML={{__html: four.ftitle2}} ></div>
 
 
                         <div className='minibox'>
                             <div className='photo'>
                                 <img></img>
-                                <p> hello</p>
+                                <p>{four.date}</p>
                             </div>
                             <div className='dates'>
-                                <p>44/5/6/</p>
+                                {/* <p>44/5/6/</p> */}
                             </div>
 
                         </div>

@@ -42,7 +42,7 @@ function Home() {
                     {/* <Link to={`/exam/${exam.id}`}><h2 className="h9">{exam.ttitle}</h2>  */}
                       <Link to={`/four/${four.id}`} className='llkk'>  <p  className='logo'>Logo</p>
                         <h2 >{four.ftitle}</h2></Link>
-                        <p>{four.ftitle5}</p>
+                        <div style={{fontSize:'18px'}} dangerouslySetInnerHTML={{__html: four.ftitle2}} ></div>
 
 
                         <div className='minibox'>
