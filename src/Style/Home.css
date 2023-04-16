@@ -136,6 +136,9 @@ h2{
         margin-top: 69px;
         /* margin: auto; */
     }
+    .minibox{
+        display: none;
+    }
     
 
     .box{
