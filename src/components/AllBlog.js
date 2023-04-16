@@ -34,7 +34,7 @@ function Home() {
                  <Navbar/>
         <div className='front'>
        
-            <div className='mainbox' style={{margin-top: '37px'}}>
+            <div className='mainbox' style={{marginTop:'37px'}}>
 
             {fours.map(four => {
                         return (
