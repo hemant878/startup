@@ -80,7 +80,7 @@ h2{
     margin: 0;
 }
 .minibox{
-    display: flex;
+    display: none;
     margin-top: -10px;
 }
 .photo{
