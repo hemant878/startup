@@ -41,9 +41,12 @@ body{
     width: 100%;
    
 }
+    .htt{
+        font-size: 20px;
+    }
 
 .unique{
-    height: 344px;
+    height: 300px;
     border-radius: 0px;
 }
 
