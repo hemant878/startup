@@ -79,7 +79,7 @@ function BlogPage(props) {
 
 
 
-                    <div className='blogpara'  dangerouslySetInnerHTML={{__html: four.ftitle3}}></div>
+                    <div className='blogpara'  dangerouslySetInnerHTML={{__html: four.ftitle4}}></div>
 
 
 
